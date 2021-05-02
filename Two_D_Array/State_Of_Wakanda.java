@@ -1,4 +1,4 @@
-package DSA.Two_D_Array;
+
 import java.util.*;
 
 public class State_Of_Wakanda {

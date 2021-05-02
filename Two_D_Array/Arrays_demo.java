@@ -1,4 +1,4 @@
-package Two_D_Array;
+
 import java.util.*;
 
 public class Arrays_demo {
