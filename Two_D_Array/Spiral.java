@@ -35,10 +35,11 @@ public class Spiral {
                 System.out.println(mat[i][j]);
                 count++;
             }
+            rmin++;
+            cmin++;
+            rmax--;
+            cmax--;
         }
-        rmin++;
-        cmin++;
-        rmax--;
-        cmax--;
+        
     }
 }
