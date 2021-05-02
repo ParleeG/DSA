@@ -31,7 +31,7 @@ public class Spiral {
                 System.out.println(mat[i][j]);
                 count++;
             }
-            for(int j=cmax-1,i=rmin;j>=cmin&&count<totElem;j--){
+            for(int j=cmax-1,i=rmin;j>cmin&&count<totElem;j--){
                 System.out.println(mat[i][j]);
                 count++;
             }
