@@ -36,10 +36,10 @@ public class ConvertBaseToBase {
           temp=dec;
           while(temp>0)
           {
-              rem=temp%10;
+              rem=temp%destBase;
               bas=bas+(rem*pow);
               pow=pow*10;
-              temp=temp/10;
+              temp=temp/destBase;
           }
           return bas;
      }
